@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title>Madhura Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=", crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/resume_barcode-2.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigtion">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Madhura Suryawanshi</strong> 
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">software engineer</p>
+            <img src="img/smile.jpeg" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Grad Student</h3>
+                    <p>Currently Pursuing Master's degree in Computer science from California State University,
+                        Fullerton. Worked on interesting AI, Advanced Database and Cloud Computing projects. Expected
+                    Graduation is May 2021.</p> 
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Previous experience</h3>
+                    <p>Worked as Junior Software Engineer at Neova Solutions, India. Researching, designing, implementing 
+                        and managing software programs. Testing and evaluating new programs. Identifying areas for
+                        modification in existing programs and subsequently developing these modifications.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Upcoming Software Engineer</h3>
+                    <p>Self-motivated, passionate, results-oriented, and friendly individual with a career objective to 
+                        leverage on acquired academic, professional, and technical skills to build applications in Python/Java, 
+                        work on data analytics and machine learning based projects.</p>
+                </div> <!-- / service -->
+            </div><!-- / services -->
+            <a href="#work" class="btn">My work</a>
+        </section>
+
+        <!--About Me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Software Developer based in California</p>
+
+            <div class="about-me__body">
+                <p>Madhura is a Graduate Student at California State University, Fullerton pursuing her Masters in Computer Science. She has 
+                    gained immense expertise by serving as a leader in a variety of client and internal software projects involving research 
+                    over voice recognition and Data Analytics through her 2 years of professional experience as a Junior Software Engineer.</p>
+                <p>To expand her knowledge base through her Masters, she looks forward to working with an esteemed organization as a Software 
+                    Engineer to apply her technical skills with the most finesse to develop and flourish your software product(s) and see herself 
+                    as a Senior Software Engineer down the line. </p>
+            </div>
+            <img src="img/about.jpeg" alt="Sitting in chair" class="about-me__img">
+        </section>
+
+
+        <!--My work-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of range of my work</p>
+
+            <div class="portfolio">
+                <!-- portfolio 01-->
+                <a href="https://github.com/madhurasuryawanshi/neometrics" class="portfolio__item">
+                    <img src="img/data.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- portfolio 02-->
+                <a href="https://github.com/madhurasuryawanshi/perceptron" class="portfolio__item">
+                    <img src="img/neural.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- portfolio 03-->
+                <a href="https://www.coursera.org/account/accomplishments/certificate/RYJBD2H8PPGM" class="portfolio__item">
+                    <img src="img/Coursera.png" alt="" class="portfolio__img">
+                </a>
+
+            </div>
+        </section>
+
+        <footer class="footer" id="contact">
+           
+            <a href="mailto:suryawanshi.madhura18@gmail.com" class="footer-link">suryawanshi.madhura18@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/madhura-suryawanshi/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/MadhuraSuryawa3"><i class="fab fa-twitter"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/madhurasuryawanshi"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>
